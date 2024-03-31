@@ -1,0 +1,28 @@
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-02-20 16:46:23.531440+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-WagtailLocalize-TranslationID: 6d68d246-86b0-4620-8037-e97ff5c98e99\n"
+
+msgctxt "title"
+msgid "The Sun in our box"
+msgstr "El Sol en nuestra caja"
+
+msgctxt "abstract"
+msgid "How big is the Sun? This activity uses some simple optics to project an image of our star by building and using a pinhole camera, and some simple geometry to determine the size of the Sun."
+msgstr "¿Qué tan grande es el Sol? Esta actividad utiliza óptica simple para proyectar una imagen de nuestra estrella al construir y usar una cámara estenopeica, y utiliza geometría simple para determinar el tamaño del Sol."
+
+msgctxt "abstract"
+msgid ""
+"<b><i>NOTE: This is the English translation of an original activity proposed by NAEC Team Turkey within the STEAM-Med co-design project developed by the OAE Center Italy</i></b> <b>(Lampedusa, "
+"Sicily, Italy fom July 3 to 9, 2022).</b> <b><i>For more information about the project :</i></b> <a id=\"a1\"><b><i>read this Link</i></b></a>"
+msgstr ""
+"<b><i>NOTA: Esta es la traducción al inglés de una actividad original propuesta por el equipo NAEC Turquía dentro del proyecto de co-diseño STEAM-Med desarrollado por el Centro OAE Italia</i></b> <b>(Lampedusa,"
+""
+
+msgctxt "theme"
+msgid "Sun dimension"
+msgstr ""
+

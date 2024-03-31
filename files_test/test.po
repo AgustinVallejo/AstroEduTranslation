@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-02-20 16:46:23.531440+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-WagtailLocalize-TranslationID: 6d68d246-86b0-4620-8037-e97ff5c98e99\n"
+
+msgctxt "title"
+msgid "The Sun in our box"
+msgstr ""
+
+msgctxt "abstract"
+msgid "How big is the Sun? This activity uses some simple optics to project an image of our star by building and using a pinhole camera, and some simple geometry to determine the size of the Sun."
+msgstr ""
+
+msgctxt "abstract"
+msgid ""
+"<b><i>NOTE: This is the English translation of an original activity proposed by NAEC Team Turkey within the STEAM-Med co-design project developed by the OAE Center Italy</i></b> <b>(Lampedusa, "
+"Sicily, Italy fom July 3 to 9, 2022).</b> <b><i>For more information about the project :</i></b> <a id=\"a1\"><b><i>read this Link</i></b></a>"
+msgstr ""
+
+msgctxt "theme"
+msgid "Sun dimension"
+msgstr ""
+
+msgctxt "acknowledgement"
+msgid "Translation by: Aysegul Yelkenci"
+msgstr ""
+
+msgctxt "teaser"
+msgid "Compare the size of the Sun and the Earth building and using a pinhole camera."
+msgstr ""
+
+msgctxt "goals"
+msgid "Spark interest for astronomy and astronomical instrumentation"
+msgstr ""
+
+msgctxt "goals"
+msgid "Observe the behaviour of light, how the image of a light source is created through an objective and it can be used to create photographic images"
+msgstr ""
+
+msgctxt "goals"
+msgid "Grasp the basics of how scientific, statistical measurements are performeded."
+msgstr ""
+
+msgctxt "reference"
+msgid ""
+"Simon, J.L.; et al. (February 1994). ”Numerical expressions for precession formulae and mean elements for the Moon and planets”. Astronomy and Astrophysics. 282 (2): 663–683. "
+"Bibcode:1994A&amp;A...282..663S."
+msgstr ""
