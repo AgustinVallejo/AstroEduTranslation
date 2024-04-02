@@ -6,7 +6,6 @@ Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automat
 
 - **Automatización de traducciones**: Facilita la traducción de documentos, especialmente formatos `.po` para localización.
 - **Gestión de traducciones parciales**: Permite retomar traducciones no finalizadas gracias a la gestión de un archivo de caché.
-- **Revisión y manejo de errores**: Ayuda a identificar y revisar traducciones fallidas para garantizar la calidad de la traducción.
 
 ## Configuración inicial
 
