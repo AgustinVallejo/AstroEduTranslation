@@ -2,5 +2,8 @@ keys.py
 files_pre/*
 files_post/*
 cache/*
+!files_pre/.gitkeep
+!files_post/.gitkeep
+!cache/.gitkeep
 .vscode
 __pycache__
