@@ -14,13 +14,13 @@ from tqdm import tqdm
 import os
 
 def main():
-    filepath = 'the-sky-at-your-fingertips-es.po'
-    input_dir = 'files_pre/'
-    output_dir = 'files_post/'
-
-    # filepath = 'test2.po'
-    # input_dir = 'files_test/'
+    # filepath = 'the-sky-at-your-fingertips-es.po'
+    # input_dir = 'files_pre/'
     # output_dir = 'files_post/'
+
+    filepath = 'test.po'
+    input_dir = 'files_test/'
+    output_dir = 'files_post/'
 
     # Check if there is a cache file for unfinished translations
     if os.path.exists('cache/'+filepath):
