@@ -22,10 +22,10 @@ Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automat
      ```shell
      pip install -r requirements.txt
      ```
-    - Crea un archivo keys.py con tus credenciales de OpenAI:
-    ```python
-    OPENAI_API_KEY = "your-api-key"
-    ```
+   - Crea un archivo keys.py con tus credenciales de OpenAI:
+     ```python
+     OPENAI_API_KEY = "your-api-key"
+     ```
 
 3. **Estructura de directorios**:
    - El script espera que los archivos a traducir estén en la carpeta `files_pre`.
@@ -38,9 +38,12 @@ Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automat
 5. **Revisión y finalización**:
    - Tras la traducción, revisa los resultados y confirma para guardar los cambios.
    - Los archivos traducidos se guardarán en la carpeta `files_post`.
-   - Revisa especialmente:la mención de "traducción", la palabra "inglés", y conceptos técnicos que puedan haber sido mal traducidos.
-   - Especialmente revisa frases que originalmente están cortadas entre dos líneas, pues la traducción puede no ser correcta.
-   - En el futuro habrá una función para revisar las traducciones de manera automática.
+   - Revisa especialmente:
+      - la mención de "inglés" como idioma original, pues se traducirá literalmente.
+      - conceptos técnicos que puedan haber sido mal traducidos.
+      - links o formatos de html.
+      - palabras que la IA se haya negado a traducir por sus lineamientos.
+   - Especialmente revisa las frases que originalmente están cortadas entre dos líneas, pues la traducción puede no ser correcta.
 
 ## Uso
 
