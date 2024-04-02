@@ -46,5 +46,7 @@ Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automat
 
 ## Uso
 
+Edite [esta sección del archivo `main.py`](https://github.com/AgustinVallejo/AstroEduTranslation/blob/d6695c0ebc3566fd0a7589a05df8a3be29ee688f/main.py#L17), que es la que contiene referencia al archivo que desea traducir
+
 ```shell
 python main.py
