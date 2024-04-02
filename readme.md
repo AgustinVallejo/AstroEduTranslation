@@ -13,7 +13,7 @@ Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automat
 1. **Clonar el repositorio**:
    Asegúrate de tener una copia del código fuente en tu máquina local.
     ```shell
-    git clone
+    git clone https://github.com/AgustinVallejo/AstroEduTranslation.git
     ```
 
 2. **Preparar el entorno**:
