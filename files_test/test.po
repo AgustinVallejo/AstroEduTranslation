@@ -18,30 +18,9 @@ msgctxt "abstract"
 msgid ""
 "<b><i>NOTE: This is the English translation of an original activity proposed by NAEC Team Turkey within the STEAM-Med co-design project developed by the OAE Center Italy</i></b> <b>(Lampedusa, "
 "Sicily, Italy fom July 3 to 9, 2022).</b> <b><i>For more information about the project :</i></b> <a id=\"a1\"><b><i>read this Link</i></b></a>"
-msgstr ""
-
-msgctxt "theme"
-msgid "Sun dimension"
-msgstr ""
-
-msgctxt "acknowledgement"
-msgid "Translation by: Aysegul Yelkenci"
-msgstr ""
-
-msgctxt "teaser"
-msgid "Compare the size of the Sun and the Earth building and using a pinhole camera."
-msgstr ""
-
-msgctxt "goals"
-msgid "Spark interest for astronomy and astronomical instrumentation"
-msgstr ""
-
-msgctxt "goals"
-msgid "Observe the behaviour of light, how the image of a light source is created through an objective and it can be used to create photographic images"
-msgstr ""
-
-msgctxt "goals"
-msgid "Grasp the basics of how scientific, statistical measurements are performeded."
+"We're testing this for"
+"possible splitting the"
+"translated file. L inks https://en.wikipedia.org/wiki/Cosmic_microwave_background and https://fr.wikipedia.org/wiki/Fond_diffus_cosmologique"
 msgstr ""
 
 msgctxt "reference"
