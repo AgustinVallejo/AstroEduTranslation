@@ -1,9 +1,6 @@
 """
 Script de traducción automática de documentos de AstroEdu.
 
-TODO:
-- Implementar un sistema de autovalidación (similaridad? longitud?) para flaggear traducciones incorrectas
-
 - Agustín Vallejo 2024
 """
 
@@ -11,16 +8,17 @@ from file_parser import load_file, save_file, TranslateUnit
 from gpt import translate
 from typing import List
 from tqdm import tqdm
+from validator import validate_entry
 import os
 
 def main():
-    # filepath = 'the-sky-at-your-fingertips-es.po'
-    # input_dir = 'files_pre/'
-    # output_dir = 'files_post/'
-
-    filepath = 'test.po'
-    input_dir = 'files_test/'
+    filepath = 'light-play-es.po'
+    input_dir = 'files_pre/'
     output_dir = 'files_post/'
+
+    # filepath = 'test.po'
+    # input_dir = 'files_test/'
+    # output_dir = 'files_post/'
 
     # Check if there is a cache file for unfinished translations
     if os.path.exists('cache/'+filepath):
@@ -63,10 +61,22 @@ def main():
                     save_file( 'cache/FAILED-'+filepath, failed_entries )
                 break
 
-    print("\nTRADUCCIÓN FINALIZADA. REVISE LOS RESULTADOS..")
+    print("\nTRADUCCIÓN FINALIZADA. CORRIENDO VALIDADOR AUTOMÁTICO")
+
+    try:
+        for entry in translated_entries:
+            if entry['id'] == 0: continue
+            validate_entry( entry )
+        input("Press Enter to continue...")
+    except Exception as e:
+        print("FAILED TO VALIDATE ENTRIES!")
+        print(f'Error: {e}')
+
+    print("\nMOSTRANDO LAS TRADUCCIONES:")
 
     for entry in translated_entries:
         if entry['id'] == 0: continue
+        print(f"ENTRY ID: {entry['id']}")
         for i, value in enumerate(entry['msgid']):
             if value == "": 
                 continue
