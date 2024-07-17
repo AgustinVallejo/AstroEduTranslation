@@ -1,5 +1,7 @@
 # Traductor Automático de AstroEdu
 
+🌐 English readme available in [readmeENG.md](readmeENG.md)
+
 Este script de Python fue desarrollado por Agustín Vallejo en 2024 para automatizar la traducción de documentos utilizados en AstroEdu.
 
 ## Características principales
